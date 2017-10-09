@@ -14,9 +14,6 @@ describe('BannerInlineComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ BannerInlineComponent ]
     });
-  });
-
-  beforeEach(() => {
     fixture = TestBed.createComponent(BannerInlineComponent);
     component = fixture.componentInstance;
     de = fixture.debugElement.query(By.css('h1'));
