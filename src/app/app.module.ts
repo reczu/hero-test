@@ -6,6 +6,8 @@ import { BannerInlineComponent } from './banner-inline/banner-inline.component';
 import { BannerComponent } from './banner/banner.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TwainComponent } from './shared/twain.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardHeroComponent } from './dashboard/dashboard-hero.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { TwainComponent } from './shared/twain.component';
     BannerInlineComponent,
     BannerComponent,
     WelcomeComponent,
-    TwainComponent
+    TwainComponent,
+    DashboardComponent,
+    DashboardHeroComponent
   ],
   imports: [
     BrowserModule
